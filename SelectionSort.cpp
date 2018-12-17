@@ -13,7 +13,7 @@ void Swap(int& a, int& b);
 
 int main()
 {
-	array<int,5> data = { 12,13,11,14,10 };
+	array<int,5> data{ 12,13,11,14,10 };
 	int indexMin = 0;
 
 	for (int i = 0;  i < 4;  i++)
